@@ -5,7 +5,7 @@ import plotly_express as px
 vehicles = pd.read_csv('vehicles.csv')
 
 
-st.header('Análise de anúncios de veículos')
+st.header('Análise de preços de veículos')
 hist_button = st.button('Criar histograma de preços')
 disp_button = st.button('Criar gráfico de dispersão')
 
